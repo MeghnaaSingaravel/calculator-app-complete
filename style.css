@@ -8,9 +8,13 @@
 body {
     font-family: 'Roboto', sans-serif;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 20vh 0;
 }
+
+
 
 .container {
     width: 40vh;
@@ -53,4 +57,12 @@ input {
     height: 60px;
     width: 40vh;
     margin: auto;
+}
+
+h3 {
+    margin: 5vh 0;
+}
+
+a {
+    color:  #ff8c00;
 }
